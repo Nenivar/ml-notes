@@ -2,13 +2,14 @@
 
 Essentially what we want to do is find the mode of the posterior (i.e. through a MAP estimate) and then fit a Gaussian to it (by identifying elements in the resulting expression as Gaussian.)
 
-We can't compute our posterior $p(z)$, but we compute $f(z)$ if we know our likelihood and prior.
+We can't compute our posterior $p(z)$, but we can compute $f(z)$ if we know our likelihood and prior.
 
 $$
 p(z) = \frac 1 Z f(z) = \frac{f(z)} {\int f(z) dz}
 $$
 
 Method:
+
 1. Find the the mode of $f(z)$ by using MAP
    - we're finding the stationary points of our posterior
    - $f(z)$ has the same modes as $p(z)$

@@ -6,7 +6,7 @@ Setting the parameters $\theta$ s.t. $q(\theta)$ is close to $p(x|y)$ directly i
 
 ---
 
-To start, we want to find the bound.
+To start, we want to find the bound over the evidence $p(Y)$.
 
 Using the evidence term $p(Y)$, we can do some funky maths (along with the Jensen inequality) to end up with the following expression (which will contain our bound):
 
@@ -38,6 +38,7 @@ This term is referred to as the **Evidence Lower BOund - ELBO**. This is what we
 > note: this will not always give us a convex function
 
 We're in a good position now, because
+
 * the log of $\mathbb{E}$ is easier to calculate than $\mathbb{E}$
 * we can choose the distribution we want to take the $\mathbb{E}$ over (we have lots of freedom!)
 * the term $H(q(X))$ is trivial to calculate
@@ -49,6 +50,7 @@ We're now left to pick $q$.
 We could use **Mean-Field Variational Inference**. This chooses a family of distributions which completely factorise over the unknown variables - i.e. we are matching the marginals of the posterior distribution.
 
 Method: (very likely you won't need to know the exact form)
+
 1. Formulate the joint distribution over data and the latent parameters
 2. Formulate a fully factorised approximate posterior over the latent variables
 3. Fit the marginal approximation by making the bound *tight*

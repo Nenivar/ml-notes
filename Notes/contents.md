@@ -1,5 +1,7 @@
 # Contents
 
+A lot of notes are copied from Karl
+
 ## Pt. 1: Statistics
 
 These are mostly definitions you need to memorise.
@@ -29,6 +31,6 @@ These are mostly definitions you need to memorise.
 
 This covers three techniques we can use when we have models which are intractable to perform inference in and we want to combine assumptions with data:
 
-1. [Laplace Approximation](inference/laplace.md)
-2. [Sampling](inference/sampling.md)
-3. [Variational Inference](inference/variational.md)
+1. [Laplace Approximation](inference/laplace.pdf)
+2. [Sampling](inference/sampling.pdf)
+3. [Variational Inference](inference/variational.pdf)
