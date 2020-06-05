@@ -14,7 +14,7 @@ $$
 -KL (q(X) || p(X|Y)) + \log p(Y)
 $$
 
-> **Jensen Inequality**: this basically says that a line which intersects two points of a convex function will be above the function
+> **Jensen Inequality**: this basically says that a line which intersects two points of a convex function will be above the function; for a concave function it will be below
 
 The first term is the **Kulback-Leiber divergence**, which is a measurement between distributions. In this case, it will measure the 'distance' between our approximation $q(x)$ and the true posterior $p(x|y)$.
 

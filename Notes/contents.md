@@ -6,7 +6,7 @@ A lot of notes are copied from Karl
 
 These are mostly definitions you need to memorise.
 
-1. Probability
+1. [Probability](statistics/probability.pdf)
 2. Distributions
 3. Gaussian Identities
 
